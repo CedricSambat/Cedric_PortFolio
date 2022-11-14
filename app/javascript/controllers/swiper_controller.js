@@ -12,6 +12,7 @@ const swiper = new Swiper('.swiper', {
   direction: "vertical",
         pagination: {
           el: ".swiper-pagination",
+          dynamicBullets: true,
         },
   // modules: [Navigation, Pagination],
   // slidesPerView: 1.2
