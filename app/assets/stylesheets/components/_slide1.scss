@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'youth power';
+  src: url('Youth Power.ttf');
+}
+@font-face {
+  font-family: 'Louis George Cafe';
+  src: url('Louis George Cafe.ttf');
+}
 .rectangle{
   background-color: #222222;
   border: 1px none;
@@ -7,12 +15,20 @@
   width: 100%;
   display: flex;
 }
+//text font
 .components_1 h1, h3, p {
   color: white;
 }
+.components_1 h3{
+  font-family: 'youth power';
+  letter-spacing: 3px;
+  font-size: 45px;
+}
 .components_1 h1{
   font-size: 120px;
-  font-weight: 800
+  font-weight: 500;
+  font-family: 'youth power';
+  letter-spacing: 5px;
 }
 .cs{
   color:#F6FF82;
@@ -22,12 +38,15 @@
     align-items: flex-start;
     align-content: stretch;
     flex-direction: column;
-    max-width: 27%;
-    margin-top: 86px;
-    margin-left: 30px;
+    max-width: 53%;
+    margin-top: 36px;
+    margin-left: 38px;
 }
 .components_1 p{
   text-align: -webkit-left;
+  font-size: 20px;
+  // font-family: 'youth power';
+  letter-spacing: 3px;
 }
 .rec_2{
   background-color: #F6FF82;
@@ -45,10 +64,16 @@
   margin-top: 5%;
 }
 .rec_img img{
-  height: 450px;
+  height: 420px;
   left: 1429px;
   position: absolute;
   top: 282px;
-  width: 369px;
+  width: 320px;
   border-radius: 15px;
+}
+//rec2
+.rectangle_2{
+  height: 50%;
+  width: 100%;
+  background-color: aqua;
 }
