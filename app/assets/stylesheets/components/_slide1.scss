@@ -73,7 +73,15 @@
 }
 //rec2
 .rectangle_2{
-  height: 50%;
+  margin-top: 25%;
+  height: 100%;
   width: 100%;
-  background-color: aqua;
+  background-color: #9f9f9f;
+}
+.container_slide1{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
