@@ -24,9 +24,6 @@
   color: #F6FF82;
 }
 .skills{
-  background-color: #222222;
-  width: 50%;
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -36,12 +33,6 @@
   font-family: 'youth power';
   color: #F6FF82;
 
-}
-.sk{
-  display: flex;
-  background-color: #222222;
-  padding-left: 95px;
-  width: 50%;
 }
 .skills img{
   height: 50px;
@@ -118,7 +109,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background: #006E51;
+  background: #F6FF82;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -148,7 +139,7 @@
   top: calc(50% - 8px);
   right: -8px;
   background: #ffffff;
-  border: 2px solid #006E51;
+  border: 2px solid #F6FF82;
   border-radius: 16px;
   z-index: 1;
 }
@@ -164,7 +155,7 @@
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #006E51;
+  background: #F6FF82;
   z-index: 1;
 }
 
@@ -179,7 +170,7 @@
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006E51;
+  color: #a8a688;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -200,12 +191,12 @@
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #F6D155;
-  border: 2px solid #006E51;
+  background: #3C3C3C;
+  border: 2px solid #F6FF82;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006E51;
+  color: #F6FF82;
   z-index: 1;
 }
 
@@ -219,7 +210,7 @@
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: #3C3C3C;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -233,14 +224,14 @@
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006E51;
+  color: #F6FF82;
 }
 
 .container .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: white;
 }
 
 @media (max-width: 767.98px) {
@@ -266,7 +257,7 @@
   .container.left::before,
   .container.right::before {
     left: 100px;
-    border-color: transparent #006E51 transparent transparent;
+    border-color: transparent #F6FF82 transparent transparent;
   }
 
   .container.left .date,
@@ -286,4 +277,18 @@
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
+}
+//cards skills
+.wrapper_s .box_s{
+   width: 471px;
+    height: 50%;
+    border-radius: 15px;
+    transition: transform 500ms ease-in-out;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: -379px;
+    margin-left: 105px;
 }
