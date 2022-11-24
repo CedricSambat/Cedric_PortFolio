@@ -2,6 +2,7 @@
 height: 100%;
 width: 100%;
 background-color: #222222;
+display: flex;
 }
 .title_project{
   width: 40%;
@@ -15,4 +16,17 @@ padding: 10px;
   letter-spacing: 5px;
   color: #fff;
   text-align: center;
+}
+.img{
+  height: 90%;
+  width: 50%;
+}
+.wrapper_projects{
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.img img{
+  height: 100%;
+  width: 200%;
+  border-radius: 18px;
 }
