@@ -24,9 +24,15 @@ padding: 10px;
 .wrapper_projects{
   margin-left: 25%;
   margin-top: 3%;
+  display: flex;
 }
 .img img{
   height: 100%;
   width: 200%;
   border-radius: 18px;
+}
+.des_wraper{
+  top: 48%;
+  position: absolute;
+  left: 7%;
 }
