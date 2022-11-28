@@ -2,8 +2,6 @@
   height: 100%;
   width: 100%;
   background-color: #222222;
-  display: flex;
-  flex-direction: column;
 }
 .titile h1{
   font-size: 120px;
@@ -16,8 +14,9 @@
 .my_contact{
   width: 50%;
   height: 50%;
-  background-color: aqua;
-  margin: 38px;
+  background-color: #ff4b41;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 .anima{
 width: 40%;
@@ -26,13 +25,15 @@ background-color: blueviolet;
 }
 .contact_wrapper{
   height: 100%;
-  width: 100%;
+  width: 50%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .titile{
   width: 50%;
   height: 50%;
+  margin: 0 auto;
 }
 .box{
   width: 471px;
@@ -49,4 +50,15 @@ background-color: blueviolet;
   font-family: 'youth power';
   color: #F6FF82;
 
+}
+.my_contact h1{
+  font-family: 'youth power';
+  color: #F6FF82;
+}
+.my_contact ul{
+  margin: 10px;
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
 }
