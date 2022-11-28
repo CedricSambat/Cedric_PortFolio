@@ -34,3 +34,19 @@ background-color: blueviolet;
   width: 50%;
   height: 50%;
 }
+.box{
+  width: 471px;
+  height: 316px;
+  border-radius: 15px;
+  transition: transform 500ms ease-in-out;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.description h1{
+  font-family: 'youth power';
+  color: #F6FF82;
+
+}
